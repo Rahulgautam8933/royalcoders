@@ -1,0 +1,869 @@
+:root {
+  --dark-color1: #171717;
+  --dark-color2: #222020;
+  --dark-color3: #2b242b;
+}
+
+.bg-dark-1 {
+  background-color: var(--dark-color1) !important;
+}
+
+.bg-dark-2 {
+  background-color: var(--dark-color2) !important;
+}
+
+.bg-dark-3 {
+  background-color: var(--dark-color3) !important;
+}
+
+body,
+.sticky-header,
+.project-block-two .content-box .cat,
+.about-section-four .image-column .exp-box:before,
+.blockquote-style-one,
+.feature-block .icon,
+.clients-carousel .owl-nav .owl-prev,
+.clients-carousel .owl-nav .owl-next,
+.country-block-two .inner-box,
+.banner-section-two .bottom-box .content .inner:before,
+.accordion-box .block,
+.page-wrapper,
+.header-style-one,
+.accordion-box .block .acc-btn,
+.news-block .content-box .read-more,
+.service-block .inner-box .icon-box,
+.accordion-box.style-two .block .acc-btn,
+.team-section-two,
+.team-block-two .social-links a,
+.contact-section-two .outer-box::before,
+.contact-form-two,
+.banner-section-three .image-column .image-box .info-box,
+.contact-section-three .outer-box,
+.contact-section-three .skill-box,
+.accordion-box.style-three .block,
+.accordion-box.style-three .block .acc-btn,
+.service-block-four .inner-box .content-box .icon,
+.counter-block-four .icon,
+.contact-form.style-two,
+.header-style-six .main-box,
+.header-style-six .header-lower .logo-box,
+.accordion-box.style-five .block,
+.accordion-box.style-five .block .acc-btn,
+.clients-section-three,
+.faq-section-five:before,
+.subscribe-section-three,
+.why-choose-us .outer-box,
+.header-style-eight .header-top,
+.header-style-eight .header-lower .logo-box:before,
+.team-block-eight .info-box,
+.accordion-box.style-six .block,
+.accordion-box.style-six .block .acc-btn,
+.team-block-nine .inner-box,
+.counter-block-seven .inner,
+.fun-fact-section-seven,
+.accordion-box.style-seven .block,
+.contact-section-eight .form-column .contact-form,
+.team-block-ten .info-box,
+.header-style-ten .header-top,
+.fun-fact-section-eight:before,
+.news-block-eleven .content-box .post-info,
+.subscribe-section-five,
+.services-section-twelve,
+.subscribe-section-six:before,
+.call-to-action-two .image-column .inner-column .image:before,
+.why-choose-us-three .image-column .inner-column .exp-box .icon,
+.call-to-action-four:before,
+.fun-fact-section-ten,
+.testimonial-block-eleven .content-box:before,
+.subscribe-section-seven,
+.footer-style-thirteen,
+.team-block-fourteen .social-links a,
+.header-style-seven .header-lower .logo-box:before,
+.accordion-box.style-seven .block.active-block,
+.accordion-box.style-seven .block .acc-btn.active,
+.call-to-action-three:before,
+.header-style-two .header-lower .logo-box:before {
+  background-color: var(--dark-color1);
+}
+
+.testimonial-block-four .inner-box .info-box .icon {
+  color: var(--dark-color1);
+}
+
+a {
+  color: inherit;
+}
+
+.header-style-one .header-lower .logo-box:before,
+.header-style-one .main-box .btn-box:before,
+.country-block .theme-btn,
+.clients-carousel .owl-nav,
+.service-block .content-box,
+.testimonial-block .content-box,
+.feature-block .inner-box,
+.testimonial-section .owl-dots .owl-dot,
+.news-block .lower-content,
+.about-section-two .exp-box,
+.service-block-two .lower-content,
+.process-block .info-box .inner,
+.process-block .icon-box,
+.feature-block-three .inner-box,
+.play-btn .title,
+.play-btn .icon,
+.service-block .inner-box,
+.contact-form,
+.faqs-section .faq-column .inner-column,
+.testimonial-block .inner-box,
+.news-block .content-box,
+.service-block-two .inner-box,
+.project-block-two .inner-box .caption-box,
+.faqs-section-two .faq-column .inner-column,
+.process-block .inner-box .icon-box,
+.fun-fact-section-two .fact-counter,
+.team-block-two .info-box,
+.default-navs .owl-prev,
+.default-navs .owl-next,
+.testimonial-block-two .content-box,
+.news-block-two .inner-box,
+.news-block-two .image-box .cat,
+.about-section-three .image-column .inner-column .client-info-box,
+.about-section-three .content-column .inner-column .blocks-outer,
+.service-block-three .inner-box .content-box,
+.faqs-section-three .faq-column .inner-column,
+.team-block-three .inner-box,
+.clients-section-two,
+.testimonial-block-three .inner-box,
+.news-block-three .inner-box .content-box,
+.header-style-four .header-top,
+.about-section-four .image-column .inner-column .image-box:before,
+.about-section-four .content-column .info-box .icon,
+.service-block-four .inner-box,
+.default-navs-two .owl-next,
+.default-navs-two .owl-prev,
+.faqs-section-four .faq-column .inner-column,
+.accordion-box.style-four .block,
+.accordion-box.style-four .block .acc-btn.active,
+.accordion-box.style-four .block .acc-btn.active .icon,
+.counter-block-four .content,
+.team-block-four .inner-box:before,
+.testimonial-block-four .inner-box,
+.contact-section-four .image-column .info-box,
+.contact-section-four .image-column .play-btn .icon,
+.about-section-five .image-column .inner-column .exp-box,
+.service-block-five .inner-box,
+.service-info-block .inner,
+.counter-block-five .content,
+.project-block-five .inner-box .caption-box,
+.process-block-two .inner-box,
+.subscribe-section-two .outer-box:before,
+.testimonial-block-five .inner-box,
+.team-block-five .info-box,
+.contact-section-five .outer-box,
+.news-block-five .content-box,
+.header-style-five .outer-box .info-btn-two .icon,
+.about-section-six .exp-box,
+.service-block-six .image-box .icon,
+.service-block-six .content-box,
+.faq-section-five .outer-box,
+.news-block-six .content-box,
+.team-block-six .info-box,
+.team-block-six .social-links,
+.team-block-six .social-links a,
+.process-block-three .inner-box,
+.header-style-seven,
+.banner-section-seven,
+.service-block-seven .inner-box,
+.why-choose-us .image-column .inner-column .info-box,
+.team-block-seven .info-box,
+.team-block-seven .social-links a,
+.process-block-four .inner-box,
+.contact-section-seven .form-column .contact-form,
+.news-block-seven .content-box,
+.header-style-eight .header-lower,
+.service-block-eight .inner-box,
+.fun-fact-section-six:before,
+.project-block-seven .info-box,
+.process-block-five .inner-box .content-box,
+.testimonial-block-six .content-box,
+.faqs-section-six .faq-column .inner-column,
+.news-block-eight .content-box,
+.service-block-nine .inner-box,
+.service-block-nine .content-box,
+.project-block-eight .info-box,
+.team-block-nine .share-icon,
+.process-block-six .inner-box .content-box,
+.faqs-section-seven .outer-box,
+.testimonial-block-seven .info-box,
+.news-block-nine .content-box,
+.service-block-ten .inner-box,
+.about-block-ten .inner:hover .icon,
+.skill-block .inner-box,
+.subscribe-section-four .outer-box:before,
+.subscribe-section-four:before,
+.project-block-nine .info-box,
+.news-block-ten .content-box,
+.call-to-action .outer-box,
+.service-block-eleven .inner-box,
+.why-choose-us-two .image-column .inner-column,
+.default-navs-four .owl-next,
+.default-navs-four .owl-prev,
+.testimonial-block-nine .inner-box,
+.news-block-eleven .content-box,
+.service-block-twelve .inner-box,
+.process-block-seven .inner-box,
+.counter-block-nine .inner,
+.team-block-twelve .inner-box:before,
+.team-block-twelve .inner-box:hover:before,
+.call-to-action-two .outer-box,
+.project-block-eleven .info-box,
+.news-block-twelve .inner-box,
+.testimonial-block-ten .inner-box,
+.service-block-thirteen .inner-box,
+.service-block-thirteen .image-box .icon-box .icon,
+.service-block-thirteen .inner-box:hover .content-box,
+.why-choose-us-three .image-column .inner-column .exp-box,
+.project-block-twelve .info-box,
+.project-block-twelve .inner-box:hover .info-box,
+.counter-block-ten .inner,
+.testimonial-block-eleven .content-box,
+.social-icon-three.style-two li a,
+.service-block-fourteen .inner-box .content-box .icon,
+.feature-block-four .inner-box .icon-box .icon,
+.team-block-thirteen .info-box,
+.team-block-thirteen .inner-box:hover .info-box,
+.project-block-thirteen .inner-box .content-box,
+.testimonial-block-twelve .content-box .rating,
+.news-block-thirteen .content-box,
+.about-section-fifteen .image-column .inner-column .exp-box,
+.call-to-action-five .outer-box .sec-title .icon,
+.service-block-fifteen .content-box,
+.team-block-fourteen .inner-box,
+.project-block-fourteen .info-box,
+.testimonial-block-thirteen .inner-box,
+.news-block-fourteen .content-box,
+.subscribe-section-nine .outer-box,
+.default-navs-three .owl-next, .default-navs-three .owl-prev,
+.fun-fact-section-six .fact-counter::before,
+.faqs-section-six .info-box,
+.about-section-nine .image-column .image-1:before,
+.header-style-ten .header-lower .logo-box,
+.about-section-eleven .image-column .inner-column .image-box:before {
+  background-color: var(--dark-color2);
+}
+
+.process-block-six .inner-box .content-box .count,
+.about-block-ten .icon,
+.process-block-seven .inner-box .read-more,
+.team-section-seven .owl-carousel .owl-dots .owl-dot.active,
+.about-section-eight .image-column .image-1:before,
+.projects-section-seven .owl-carousel .owl-dots .owl-dot.active {
+  background-color: var(--dark-color3);
+}
+
+.testimonial-section .owl-carousel .owl-dots .owl-dot {
+  background-color: var(--dark-color3);
+}
+
+.about-section-three .image-column .image-2,
+.about-section-seven .image-column .image-2 img {
+  border: 10px solid var(--dark-color1);
+}
+
+.about-section-nine .image-column .image-2 {
+  border: 10px solid var(--dark-color2);
+}
+
+.process-block .info-box:before {
+  border-bottom: 10px solid var(--dark-color2);
+}
+
+.testimonial-block .content-box:before {
+  border-top: 30px solid var(--dark-color2);
+}
+
+.feature-block .inner-box:hover .icon {
+  background-color: var(--dark-color3);
+}
+
+.team-block .info-box:before {
+  background: -webkit-gradient(linear, left bottom, left top, from(var(--dark-color2)), to(transparent));
+  background: linear-gradient(to top, var(--dark-color2), transparent);
+}
+
+.team-block .image-box .image {
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent), color-stop(var(--dark-color2)), to(var(--dark-color2)));
+  background: linear-gradient(to top, transparent, var(--dark-color2), var(--dark-color2));
+}
+
+.team-block .image-box .image:before {
+  background: -webkit-gradient(linear, left bottom, left top, from(var(--dark-color2)), color-stop(var(--dark-color2)), to(var(--theme-color1)));
+  background: linear-gradient(to top, var(--dark-color2), var(--dark-color2), var(--theme-color1));
+}
+
+.feature-block .inner-box .image-box .image::before {
+  background: -webkit-gradient(linear, left bottom, left top, from(var(--dark-color2)), to(transparent));
+  background: linear-gradient(to top, var(--dark-color2), transparent);
+}
+
+.testimonial-block-two .inner-box:hover .content-box {
+  background-color: var(--dark-color3);
+}
+
+.social-icon-one li a:hover {
+  color: #505050;
+}
+
+.list-style-two li {
+  color: #74707c;
+}
+
+.features-section .tabs-column .tab-btns .tab-btn.active-btn:before {
+  background-color: var(--dark-color2);
+}
+
+.clients-section .outer-box {
+  border-top: 1px solid var(--dark-color2);
+}
+
+.about-section .content-column .info-box {
+  border-bottom: 1px solid var(--dark-color2);
+}
+
+.about-section .content-column .other-info .list-style-two {
+  border-left: 1px solid var(--dark-color2);
+}
+
+.quote-section .content-column .other-info {
+  border-top: 1px solid var(--dark-color1);
+}
+
+.counter-block .inner:before {
+  border-right: 1px solid var(--dark-color1);
+}
+
+.feature-block .inner-box .content-box .icon-box {
+  border: 12px solid var(--dark-color2);
+}
+
+.why-choose-us .outer-box .float-image:before {
+  border: 10px solid var(--dark-color2);
+}
+
+.header-style-two .main-box .outer-box .info-btn .icon {
+  padding-right: 20px;
+}
+
+.about-section-five .content-column .inner-column {
+  padding: 50px;
+}
+
+.about-section .image-column .image-2 {
+  border: 10px solid var(--dark-color1);
+}
+
+.about-section-five .image-column .image-2,
+.about-section-two .image-column .image-2 {
+  border: 20px solid var(--dark-color2);
+}
+
+.features-section .tabs-column .tab-btns .tab-btn.active-btn:after {
+  border-left: 20px solid var(--dark-color2);
+}
+
+.testimonial-block-two .content-box:before {
+  border-top: 20px solid #222020;
+}
+
+.project-section-two .project-block .content-box {
+  border-bottom-color: var(--dark-color2);
+}
+
+.client-block {
+  border-right: 1px solid var(--dark-color1);
+}
+
+.pricing-block.style-two .inner-box {
+  background-color: var(--dark-color3);
+}
+
+.btn-style-three,
+.work-tabs .tab-buttons .tab-btn {
+  background-color: #000;
+}
+
+.counter-block-two .inner:hover .icon {
+  background-color: transparent;
+}
+
+.about-section-six .image-column .image-box:before {
+  background-color: var(--bg-theme-color2);
+}
+
+.blockquote-one {
+  background-color: #323232;
+}
+
+.about-section .content-column .info-btn i {
+  background-color: #282a2e;
+}
+
+.about-section-two .content-column .inner-column .list-style-two li {
+  color: #6a6a6a;
+}
+
+.service-block .content-box .read-more,
+.about-section-two .exp-box .count,
+.about-section-two .info-btn strong,
+.about-section .content-column .author-info .name {
+  color: #fff;
+}
+
+.about-section .content-column .author-info .designation,
+.about-section .content-column .info-box:hover .title {
+  color: #bdbdbd;
+}
+
+.service-block-two .inner-box .hover-content .icon,
+.about-section-two .content-column .float-text {
+  color: #3a3a3a;
+}
+
+.blockquote-one {
+  color: #8d8d8d;
+}
+
+.header-search .form-group input:not([type=submit])::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.header-search .form-group input:not([type=submit])::-moz-placeholder {
+  color: #fff;
+}
+
+.header-search .form-group input:not([type=submit]):-ms-input-placeholder {
+  color: #fff;
+}
+
+.header-search .form-group input:not([type=submit])::-ms-input-placeholder {
+  color: #fff;
+}
+
+.sticky-header .mobile-nav-toggler,
+.sticky-header .main-menu .navigation > li > a,
+.sticky-header .main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li:hover > a,
+.main-header .info-btn small,
+.main-menu .navigation > li > a,
+.list-style-one li,
+.main-header .ui-btn,
+h6,
+strong,
+.title a,
+.testimonial-block .info-box .name,
+.default-navs .owl-next, .default-navs .owl-prev,
+.header-style-two .main-box .main-menu .navigation > li > a,
+.team-block .info-box .name,
+.accordion-box .block .acc-btn .icon,
+.feature-block-three .title,
+.sortable-masonry .filter-tabs .filter.active,
+.about-us-tabs .tab-btns .tab-btn.active-btn,
+.skills .skill-item .skill-header .skill-title,
+.blockquote-style-one,
+.accordion-box .block .acc-btn,
+.service-block .inner-box .read-more,
+.sec-title .sub-title,
+.play-btn .title,
+.sec-title h2,
+.news-block .content-box .read-more,
+.info-block .icon-box,
+.service-block .inner-box .icon-box,
+.banner-section-two .content-columnn .content-box .title,
+.banner-section-two .content-columnn .content-box .text,
+.process-block .inner-box .title,
+.process-block .inner-box .text,
+.counter-block-two .count-box,
+.counter-block-two .count-box .count-text,
+.testimonial-block-two .info-box .name,
+.news-block-two .image-box .cat,
+.banner-section-three .image-column .image-box .info-box .inner .title,
+.banner-section-three .image-column .image-box .info-box .inner .text,
+.about-section-three .image-column .inner-column .client-info-box .inner .title,
+.about-section-three .image-column .inner-column .client-info-box .inner .text,
+.info-block-two .title,
+.contact-section-three .skill-box .pie-graph .graph-outer .count-box,
+.team-block-three .name,
+.news-block-three .inner-box .content-box .post-info li,
+.news-block-three .inner-box .content-box .read-more,
+.footer-style-three .about-widget-two .text,
+.about-section-four .content-column .info-box .icon,
+.service-block-four .inner-box .content-box .icon,
+.service-block-four .inner-box:hover .content-box .icon,
+.accordion-box.style-four .block .acc-btn.active,
+.counter-block-four .count-box,
+.counter-block-four .count-box .count-text,
+.counter-block-four:nth-child(even) .icon,
+.team-block-four .info-box .name a,
+.team-block-four .info-box .name a:hover,
+.testimonial-block-four .inner-box .info-box .name,
+.banner-section-five .content-columnn .content-box .title,
+.banner-section-five .content-columnn .content-box .text,
+.about-section-five .image-column .inner-column .exp-box .text,
+.service-block-five .inner-box .read-more,
+.counter-block-five .count-box .count-text,
+.counter-block-five .count-box,
+.project-block-five .inner-box .caption-box .read-more,
+.process-block-two .inner-box .title,
+.process-block-two .inner-box .text,
+.process-block-two .inner-box .icon-box .count,
+.subscribe-section-two .title-column .title,
+.team-block-five .info-box .name,
+.header-style-five .outer-box .info-btn-two small,
+.banner-section-six .content-columnn .content-box .title,
+.banner-section-six .content-columnn .content-box .text,
+.about-block-six .title,
+.about-section-six .content-column .info-box .text,
+.about-section-six .exp-box .title,
+.service-block-six .content-box .read-more,
+.service-block-six .image-box .icon,
+.team-block-six .info-box .name,
+.team-block-six .social-links a,
+.process-block-three .inner-box .title,
+.banner-section-seven .content-columnn .content-box .title,
+.banner-section-seven .content-columnn .content-box .text,
+.feature-block .inner-box .title,
+.why-choose-us .image-column .inner-column .info-box .title,
+.team-block-seven .info-box .name,
+.team-block-seven .social-links a,
+.news-block-seven .content-box .read-more,
+.service-block-eight .inner-box .read-more,
+.service-block-eight .inner-box .icon,
+.process-block-five .inner-box .content-box .title,
+.process-block-five .inner-box .content-box .icon,
+.project-block-eight .info-box .read-more,
+.counter-block-seven .icon,
+.counter-block-seven .count-box,
+.counter-block-seven .count-box .count-text,
+.process-block-six .inner-box .content-box .icon,
+.process-block-six .inner-box .content-box .count,
+.news-block-nine .content-box .read-more,
+.service-block-ten .inner-box .content-box .icon,
+.skill-block .graph-outer .count-box,
+.project-block-nine .info-box .title,
+.main-header .info-btn-two small,
+.header-search .form-group input:not([type=submit])::placeholder,
+.about-block-ten .icon,
+.news-block-ten .content-box .post-info li,
+.why-choose-us-two .image-column .inner-column .exp-box .inner .title,
+.about-block-eleven .inner-box .title,
+.default-navs-four .owl-next,
+.default-navs-four .owl-prev,
+.testimonial-block-nine .inner-box .name,
+.service-block-twelve .inner-box .read-more,
+.counter-block-nine .count-box,
+.counter-block-nine .count-box .count-text,
+.project-block-eleven .info-box .designation,
+.testimonial-block-ten .info-box .name,
+.banner-section-thirteen .content-columnn .content-box .title,
+.banner-section-thirteen .content-columnn .content-box .text,
+.service-block-thirteen .image-box .icon-box .icon,
+.why-choose-us-three .image-column .inner-column .exp-box .icon,
+.project-block-twelve .info-box .title,
+.counter-block-ten .count-box,
+.counter-block-ten .count-box .count-text,
+.testimonial-block-eleven .info-box .name,
+.footer-style-thirteen .widgets-section .widget-title,
+.footer-style-thirteen .recent-post .inner .post-title,
+.service-block-fourteen .inner-box .content-box .read-more,
+.service-block-fourteen .inner-box .content-box .icon,
+.feature-block-four .inner-box .read-more,
+.feature-block-four .inner-box .icon-box .icon,
+.pricing-block .inner-box .title-box .title,
+.pricing-block .inner-box .price-box .price,
+.counter-block-eleven .count-box,
+.counter-block-eleven .count-box .count-text,
+.counter-block-eleven .icon,
+.testimonial-block-twelve .info-box .name,
+.testimonial-block-twelve .content-box .icon,
+.subscribe-section-eight .title-column .title,
+.call-to-action-five .outer-box .sec-title .icon,
+.service-block-fifteen .content-box .read-more,
+.counter-block-twelve .count-box .count-text,
+.counter-block-twelve .count-box,
+.counter-block-twelve .icon,
+.social-icon-one li a,
+.default-navs-two .owl-next,
+.default-navs-two .owl-prev,
+.default-navs-three .owl-next,
+.default-navs-three .owl-prev,
+.testimonial-section-three .owl-carousel .owl-nav .owl-next,
+.testimonial-section-three .owl-carousel .owl-nav .owl-prev,
+.project-block-seven .info-box .read-more,
+.testimonial-block-seven .info-box .name {
+  color: #fff;
+}
+
+.training-section-two .owl-dots:before,
+.testimonial-section .owl-dots:before {
+  background: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(#505050), to(transparent));
+  background: linear-gradient(to left, transparent, #505050, transparent);
+}
+
+.process-block .icon-box .icon::after {
+  background: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(var(--dark-color1)), to(transparent));
+  background: linear-gradient(to left, transparent, var(--dark-color1), transparent);
+}
+
+.testimonial-block .inner-box,
+.news-block .content-box,
+.service-block .inner-box .icon-box,
+.counter-block-two .counter-title:before,
+.default-navs .owl-prev,
+.default-navs .owl-next,
+.news-block-two .inner-box,
+.news-block-two .author-info .thumb,
+.client-block,
+.process-block-two .inner-box,
+.team-block-five .inner-box,
+.contact-section-five .form-column .inner-column .contact-form input:not([type=submit]),
+.contact-section-five .form-column .inner-column .contact-form textarea,
+.news-block-five .content-box,
+.news-block-five .content-box .post-info,
+.banner-section-five .image-column .image-box .image,
+.faq-section-five .outer-box,
+.accordion-box.style-five .block,
+.news-block-six .content-box,
+.process-block-three .inner-box,
+.why-choose-us .outer-box,
+.team-block-seven .social-links a,
+.contact-section-seven .form-column .contact-form input:not([type=submit]),
+.contact-section-seven .form-column .contact-form textarea,
+.news-block-seven .content-box,
+.service-block-eight .inner-box,
+.team-block-eight .inner-box,
+.testimonial-block-six .info-box,
+.process-block-six .inner-box .content-box,
+.testimonial-block-seven .inner-box,
+.about-section-ten .image-column .image-2,
+.testimonial-block-nine .inner-box,
+.service-block-twelve .inner-box,
+.about-section-twelve .content-column .features-list,
+.process-block-seven .inner-box,
+.testimonial-block-ten .inner-box,
+.counter-block-ten .inner:before,
+.counter-block-ten .inner,
+.footer-style-thirteen .footer-bottom,
+.service-block-fourteen .inner-box,
+.about-block-fourteen .inner .info-box,
+.feature-block-four .inner-box .icon-box .icon,
+.feature-block-four .inner-box .content-box,
+.pricing-block .inner-box,
+.counter-block-eleven .inner,
+.testimonial-block-twelve .inner-box,
+.news-block-thirteen .content-box .text-box,
+.service-block-fifteen .content-box .title,
+.team-block-fourteen .inner-box,
+.testimonial-block-thirteen .info-box,
+.news-block-fourteen .content-box .post-info,
+.play-btn .icon,
+.testimonial-block-four .inner-box,
+.about-section-five .image-column .inner-column .bg-suqre,
+.about-block-six .icon-box,
+.about-section-six .image-column .play-btn .icon,
+.about-section-seven .image-column .inner-column:before,
+.project-block-seven .info-box,
+.faqs-section-six .image-column .inner-column::before,
+.project-block-eight .info-box,
+.news-block-ten .content-box,
+.service-block-eleven .inner-box .icon,
+.about-section-fourteen .image-column .inner-column .exp-box,
+.why-choose-us-five .image-column .inner-column .exp-box,
+.footer-style-three .about-widget-two,
+.process-block-two .inner-box .icon-box .icon {
+  border-color: #505050;
+}
+
+.service-block-two .inner-box .content-box .icon,
+.about-section-four .image-column .inner-column .image-box::after,
+.testimonial-block-four .inner-box .image {
+  border: 5px solid #505050;
+}
+
+.feature-block .count {
+  -webkit-text-stroke-color: #fff;
+}
+
+.counter-block-two .count-box {
+  -webkit-text-stroke-color: var(--bg-theme-color2);
+}
+
+.header-style-two {
+  background-color: unset;
+}
+
+.counter-block .inner {
+  background-image: unset;
+}
+
+.banner-section-two .bottom-box:before,
+.contact-section:before {
+  opacity: 0.1;
+}
+
+.sponsors-outer .client-block img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.clients-carousel .slide-item img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.clients-section .slide-item a:hover {
+  background-color: inherit;
+}
+
+.banner-section .bg-overlay {
+  background-image: url(../images/banner/overlay-dark.png);
+}
+
+.banner-section-three .image-column .icon-triangle {
+  background-image: url(../images/banner/icon-triangle-dark.png);
+}
+
+.banner-section-four .image-column .image-box .bg-shape {
+  background-image: url(../images/banner/shape-1-dark.png);
+}
+
+.testimonial-section:before {
+  background-image: url(../images/icons/dotted-map-dark.png);
+}
+
+.testimonial-section-ten:before {
+  background-image: url(../images/icons/dotted-map-2-dark.png);
+}
+
+.icon-chat {
+  background-image: url(../images/icons/icon-chat-dark.png);
+}
+
+.icon-dots-4 {
+  background-image: url(../images/icons/icon-dots-4-dark.png);
+}
+
+.bg-pattern-2 {
+  background-image: url(../images/icons/pattern-2-dark.png);
+}
+
+.bg-pattern-3 {
+  background-image: url(../images/icons/pattern-3-dark.png);
+}
+
+.subscribe-section-two .outer-box:before {
+  background-image: url(../images/icons/shape-2-dark.png);
+}
+
+.bg-pattern-6 {
+  background-image: url(../images/icons/pattern-6-dark.png);
+}
+
+.feature-block-four .inner-box .content-box:after {
+  background-image: url(../images/icons/shape-7-dark.png);
+}
+
+.pricing-block .inner-box:before {
+  background-image: url(../images/icons/dotted-map-3-dark.png);
+}
+
+.bg-pattern-9 {
+  background-image: url(../images/icons/pattern-9-dark.jpg);
+}
+
+.call-to-action-two .image-column .inner-column .image:before,
+.bg-pattern-10 {
+  background-image: url(../images/icons/pattern-10-dark.jpg);
+}
+
+.main-footer .footer-bg-13 {
+  background-image: url(../images/icons/footer-bg-13-dark.png);
+}
+
+.bg-pattern-12 {
+  background-image: url(../images/icons/pattern-12-dark.png);
+}
+
+.bg-pattern-14 {
+  background-image: url(../images/icons/pattern-14-dark.png);
+}
+
+.bg-pattern-15 {
+  background-image: url(../images/icons/pattern-15-dark.png);
+}
+
+.bg-pattern-16 {
+  background-image: url(../images/icons/pattern-16-dark.png);
+}
+
+.banner-section-nine .image-box .icon-flower {
+  background-image: url(../images/banner/icon-flower-dark.png);
+}
+
+.banner-section-nine .image-box .icon-triangle {
+  background-image: url(../images/banner/icon-triangle-2-dark.png);
+}
+
+.banner-section-nine .image-box .icon-dots {
+  background-image: url(../images/banner/icon-dots-dark.png);
+}
+
+.icon-triangle {
+  background-image: url(../images/icons/icon-triangle-dark.png);
+}
+
+.subscribe-section-six .outer-box:before {
+  background-image: url(../images/icons/shape-5-dark.png);
+}
+
+.main-footer .footer-bg-14 {
+  background-image: url(../images/icons/footer-bg-14-dark.jpg);
+}
+
+.contact-form .form-group textarea {
+  background-color: #0a090f;
+}
+.contact-form .form-group input:not([type=submit]) {
+  background-color: #0a090f;
+}
+
+.newsletter-form-three .form-group input[type=text],
+.newsletter-form-three .form-group input[type=email] {
+  background-color: rgba(22, 36, 62, 0.7);
+}
+
+.client-block.dark-style img,
+.about-section-seven .content-column .bottom-box .auther-info .image {
+  display: inline-block !important;
+  width: auto !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: unset;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+  opacity: 0.4;
+}
+
+.team-block .inner-box:after {
+  display: none;
+}
+
+.banner-section-twelve .gradient-overlay:before {
+  background: linear-gradient(90.22deg, var(--dark-color1) 0.19%, rgba(22, 36, 62, 0) 99.81%);
+}
+
+.subscribe-section-nine .outer-box:before {
+  background: linear-gradient(255.88deg, #2c2c2c 2.63%, rgba(208, 244, 222, 0) 90.75%);
+}
+
+.testimonial-block-eight .info-box {
+  z-index: 0;
+}
