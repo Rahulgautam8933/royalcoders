@@ -4206,7 +4206,7 @@ Header Style Four
       -ms-flex-pack: center;
           justify-content: center;
   padding: 30px 20px;
-  background-color: var(--bg-theme-color1);
+  background-color: white;
   margin-right: 30px;
 }
 @media only screen and (max-width: 1699px) {

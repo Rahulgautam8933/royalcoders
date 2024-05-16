@@ -45,7 +45,8 @@ License: copyright commercial
   --theme-color-light: #ffffff;
   --theme-color-dark: #000000;
   --theme-color-gray: #F2F3F5;
-  --theme-color1: #134cb3;
+  --theme-color1: #ffffff;
+  /* --theme-color1: #134cb3; */
   --theme-color2: #16243E;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
